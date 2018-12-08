@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>HTML/CSS Workshop</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<img src="img/CESIUM_LOGO_print-10.jpg">
+				</section>
+
+				<section>
+					<h1>HTML & CSS</h1>
+					<h3>workshop</h3>
+					<img src="img/html.png">
+				</section>
+
+				<section style="text-align: left;">
+					<div>
+						<h2 style="display: inline-block;" >Who? &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h2>
+						<img src="img/CERN02.jpg" height="230px" style="display: inline-block; vertical-align:middle" class="fragment">
+					</div>
+					<br><br><br>
+					<h2>
+						<span style="display: inline-block;" >When?</span>
+						<span style="display: inline-block;" class="fragment fade-up">&nbsp&nbsp&nbsp&nbsp 1990's</span>
+					</h2>
+				</section>
+
+				<section style="text-align: left;">
+						<h1 style="display: inline-block;">H</h1>
+						<h2 style="display: inline-block;" class="fragment fade-right">yper</h2>
+					<br>
+						<h1 style="display: inline-block;">T</h1>
+						<h2 style="display: inline-block;" class="fragment fade-right">ext</h2>
+					<br>
+						<h1 style="display: inline-block;"><font color="#ff0000">M</font></h1>
+						<h2 style="display: inline-block;" class="fragment fade-right"><font color="#ff0000">arkup</font></h2>
+					<br>
+						<h1 style="display: inline-block;"><font color="#ff0000">L</font></h1>
+						<h2 style="display: inline-block;" class="fragment fade-right"><font color="#ff0000">anguage</font></h2>
+				</section>
+
+				<section>
+					<h1>How does it work?</h1>
+					<br>
+					<h2 class="fragment">TAGS</h2>
+				</section>
+
+				<section>
+					<h2>&lt;&nbsp;&nbsp;TAG<font color="#ff0000"> &nbsp;&nbsp; attribute="value"</font>&gt;</h2>
+					<br>
+					<img src="img/donut.png" class="fragment" style="display: inline-block; vertical-align:middle" height="300px">
+					<h2 class="fragment" style="display: inline-block;">&lt;DONUT&gt; &nbsp;&nbsp;  &lt;/DONUT&gt</h2>
+				</section>
+
+				<section>
+					<h1>HTML STRUCTURE</h1>
+					<img src="img/struct-html.png" style="display: inline-block;" height="400px" align="middle">
+					<h2 style="display: inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+					<img src="img/stickman.png" style="display: inline-block;" height="400px" align="middle">
+				</section>
+
+				<section>
+					
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
