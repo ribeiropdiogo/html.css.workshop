@@ -1,5 +1,16 @@
-# HTML & CSS presentation built with reveal.js
+# HTML/CSS Workshop
 
-This repository contains a presentation built with reveal.js about HTML & CSS
+A presentation for an html/css workshop built using reveal.js
 
-The folder noticia contains a practical example of basic html & css applications.
+# Topics
+* html introduction
+* html structure
+* html basic tags and usage
+* css introduction
+* css structure
+* css properties and usage
+* css class vs id
+
+# Example
+
+The demo folder contains an practic example of an basic html page with a random article complemented with some css styles
