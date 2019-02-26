@@ -1,5 +1,6 @@
 body{
-	background-color: #293d3d;
+	background-image: url("pattern.png");
+	background-repeat: repeat;
 }
 
 p {
@@ -11,16 +12,19 @@ p {
 h1 {
 	text-align: center;
 	font-size: 35px;
+	text-transform: uppercase;
 }
 
 img{
-	margin: 10px 50px 10px 20px;
-	float: right;
+	display: block;
+	margin: auto;
+	border-radius: 50%;
 }
 
 .texto{
 	font-family: "Arial", sans-serif;
 	color: white;
+	column-count: 3;
 }
 
 #especial{
